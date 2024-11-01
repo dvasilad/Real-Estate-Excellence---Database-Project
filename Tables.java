@@ -62,4 +62,3 @@ CREATE TABLE Properties (
         FOREIGN KEY (client_id) REFERENCES Clients(client_id)
         );
 
-
