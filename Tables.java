@@ -1,6 +1,3 @@
-public static void main(String[]args){
-
-
 CREATE TABLE Properties (
         property_id INT AUTO_INCREMENT PRIMARY KEY,
         property_type VARCHAR(50),            // e.g., apartment, office, house
@@ -64,5 +61,3 @@ CREATE TABLE Properties (
         FOREIGN KEY (property_id) REFERENCES Properties(property_id),
         FOREIGN KEY (client_id) REFERENCES Clients(client_id)
         );
-
-        }
