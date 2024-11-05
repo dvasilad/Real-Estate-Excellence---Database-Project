@@ -20,4 +20,4 @@ The schema includes the following tables:
 ## Technologies Used
 
 - **SQLite**: For initial database development and ERD generation.
-- **MySQL**: Production database schema uploaded here.
+- **MySQL**: Production database schema uploaded to this repository.
